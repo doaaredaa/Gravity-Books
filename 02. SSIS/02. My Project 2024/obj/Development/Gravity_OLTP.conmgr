@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Gravity_OLTP"
+  DTS:DTSID="{C32E6358-FE31-4517-873D-78959DB95E13}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Gravity_OLTP;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-My Project 2024-{C32E6358-FE31-4517-873D-78959DB95E13}LocalHost.Gravity_OLTP;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
